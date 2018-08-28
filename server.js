@@ -3,7 +3,7 @@ var http = require('http');
 var app=http.createServer(function (req, res) {
 //creates server after edit 2
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  //sets the right header and status code
+  //sets the right header and status code after edit 3
   res.end('Hello World\n');
   //outputs string with line end symbol
 }).listen(1337, "127.0.0.1");
