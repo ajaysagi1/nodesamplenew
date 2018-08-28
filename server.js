@@ -1,7 +1,7 @@
 var http = require('http');
 //loads http module after edit
 var app=http.createServer(function (req, res) {
-//creates server
+//creates server after edit 2
   res.writeHead(200, {'Content-Type': 'text/plain'});
   //sets the right header and status code
   res.end('Hello World\n');
